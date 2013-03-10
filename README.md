@@ -31,9 +31,12 @@ app.get('/foo', function(req, res) {
 });
 ```
 
+## Demo
+
+You can find a demo using this thing together with [jquery-pjax](https://github.com/defunkt/jquery-pjax) over at [github.com/optikfluffel/express-pjax-demo](https://github.com/optikfluffel/express-pjax-demo)
+
 ## TODO
 
-* Demo
 * Support redirect.
 
 ## Kudos
