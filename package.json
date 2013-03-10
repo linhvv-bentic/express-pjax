@@ -1,22 +1,17 @@
 {
   "name": "express-pjax",
   "description": "Express middleware for Pjax.",
-  "version": "0.0.1",
-  "homepage": "http://github.com/dakatsuka/express-pjax",
+  "version": "0.0.2",
+  "homepage": "http://github.com/optikfluffel/express-pjax",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dakatsuka/express-pjax.git"
+    "url": "git://github.com/optikfluffel/express-pjax.git"
   },
   "keywords": ["express", "pjax"],
-  "author": "Dai Akatsuka <d.akatsuka@gmail.com>",
+  "author": "Optikfluffel <optikfluffel@googlemail.com>",
   "bugs": {
-    "url": "http://github.com/dakatsuka/express-pjax/issues"
+    "url": "http://github.com/optikfluffel/express-pjax/issues"
   },
-  "licenses": [
-    {
-      "type": "WTFPL",
-      "url": "http://github.com/optikfluffel/express-pjax/raw/master/LICENSE"
-    }
-  ],
+  "license": "WTFPL",
   "main": "./pjax.js"
 }
