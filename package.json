@@ -14,8 +14,8 @@
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "http://github.com/dakatsuka/express-pjax/raw/master/MIT-LICENSE"
+      "type": "WTFPL",
+      "url": "http://github.com/optikfluffel/express-pjax/raw/master/LICENSE"
     }
   ],
   "main": "./pjax.js"
