@@ -5,12 +5,12 @@ Express middleware for Pjax.
 ## Installation
 
 ```
-npm install express-pjax
+npm install --from-git git://github.com/optikfluffel/express-pjax.git
 ```
 
 ## Usage
 
-If you use `res.renderPjax` method, the request of pjax will be handled automatically.
+If you use `res.renderPjax` method, the request of pjax will be handled automatically if you put your views without the `extends layout` stuff in a `pjax` subfolder and include them in your layout enabled views with `include pjax/foo`. See [comment from @kwood1138](https://github.com/visionmedia/express/issues/1123#issuecomment-9715981) for more details.
 
 ```javascript
 var express = require('express');
@@ -31,14 +31,18 @@ app.get('/foo', function(req, res) {
 });
 ```
 
-## DEMO
-
-https://github.com/abdelsaid/express-pjax-demo
-
 ## TODO
 
+* Demo
 * Support redirect.
 
-## Copyright
+## Kudos
 
-Copyright (C) 2011 Dai Akatsuka, released under the MIT License.
+Thanks go to @kwood1138 for this [little solution](https://github.com/visionmedia/express/issues/1123#issuecomment-9715981). I just put it in a github repo to use it with npm.
+
+## License
+
+DO WHATEVER THE FUCK YOU WANT, PUBLIC LICENSE
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0\. You just DO WHATEVER THE FUCK YOU WANT.
