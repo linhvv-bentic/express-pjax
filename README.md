@@ -10,7 +10,7 @@ npm install --from-git git://github.com/optikfluffel/express-pjax.git
 
 ## Usage
 
-If you use `res.renderPjax` method, the request of pjax will be handled automatically if you put your views without the `extends layout` stuff in a `pjax` subfolder and include them in your layout enabled views with `include pjax/foo`. See [comment from @kwood1138](https://github.com/visionmedia/express/issues/1123#issuecomment-9715981) for more details.
+If you use `res.renderPjax` method, the request of pjax will be handled automatically if you put your views without the `extends layout` stuff in a `pjax` subfolder and include them in your layout enabled views with `include pjax/foo`. See [comment from @kwood1138](https://github.com/visionmedia/express/issues/1123#issuecomment-9715981) or my [express-pjax-demo](https://github.com/optikfluffel/express-pjax-demo) for more details.
 
 ```javascript
 var express = require('express');
