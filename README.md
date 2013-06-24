@@ -1,6 +1,6 @@
 # express-pjax
 
-Express middleware for Pjax.
+Express middleware for handling Pjax requests that works with Express version 3 (and higher).
 
 ## Installation
 
