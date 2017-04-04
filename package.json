@@ -2,15 +2,14 @@
   "name": "express-pjax",
   "description": "Express middleware for Pjax.",
   "version": "0.0.2",
-  "homepage": "http://github.com/optikfluffel/express-pjax",
+  "homepage": "http://github.com/linhvv-bentic/express-pjax",
   "repository": {
     "type": "git",
-    "url": "git://github.com/optikfluffel/express-pjax.git"
+    "url": "git://github.com/linhvv-bentic/express-pjax.git"
   },
   "keywords": ["express", "pjax"],
-  "author": "Optikfluffel <optikfluffel@googlemail.com>",
   "bugs": {
-    "url": "http://github.com/optikfluffel/express-pjax/issues"
+    "url": "http://github.com/linhvv-bentic/express-pjax/issues"
   },
   "license": "WTFPL",
   "main": "./pjax.js"
