@@ -11,7 +11,7 @@ module.exports = function() {
             if (req.pjax) {
                 view = 'modules/' + view;
             }
-            platform_module.renderNavigation(function(err, result) {
+            platform_module.renderNavigation(req, function(err, result) {
                 options["nav"] = result;
                 res.render(view, options, fn);
             });
